@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb+srv://liz:Surgery.7@cluster0.cystd.mongodb.net/liz?retryWrites=true&w=majority',
+  process.env.MONGODB_URI || 'mongodb+srv://abdulsamadola:FLqW9xRvIZtIGx66@cluster0.szenl.mongodb.net/testDB?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
